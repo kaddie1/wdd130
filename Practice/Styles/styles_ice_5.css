@@ -1,0 +1,24 @@
+body{
+    font-size: 0;
+    margin:0;
+}
+
+.top_half img{
+width: 100%;
+
+}
+
+.bottom_half{
+
+    background-color: grey;
+    text-align: center; 
+}
+
+
+.bottom_half img{
+
+   border-radius:50%;
+   width: 20%;
+  
+    
+}
