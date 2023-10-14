@@ -49,10 +49,8 @@ body {
     font-family: "Times New Roman", sans-serif, courier;
     font-size: 22px;
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
-
-
 header {
     background-color:yellow;
 }
@@ -64,7 +62,6 @@ header {
     background-color:red;
     color: white;
     text-decoration: none;
-    font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -80,7 +77,6 @@ header {
     background-color:red;
     color: Black;
     text-decoration: none;
-    font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -93,7 +89,7 @@ header {
 }
 
 
-.msg {
+.msg{
     background-color: yellow;
     line-height: 1.5em;
     padding: 35px;
@@ -108,37 +104,42 @@ footer{
 
 
 .home-title{
-    
+    color:black;
     font-family: "Anton", Arial, Helvetica;
-        
-    font-size: 2em;
     margin-top: 10px;
-     
-}
-
-h2{
-    margin: 0;
 }
 
 h4{
     color: black;
 }
 
-
+h2 {
+    margin: 0;
+}
 
 .msg h2
 {
     color:black;
-    
 }
 
 
-.msg p{
+.msg p
+{
     color: black;
-    font-size: .8em;
     padding-bottom: 15px;
 }
 
+.rivers-card, .camping-card, .rapids-card{   
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
 
 footer a{
     color:yellow;
@@ -151,10 +152,6 @@ footer a:hover{
 
 .logo {
     width: 80px;
-}
-
-#logo_link{
-    padding-top: 5px;
 }
 
 .icon {
@@ -173,25 +170,13 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+        
+#logo_link{   
+    padding-top: 5px;
 
-footer .social img{   
+}
+
+footer .social img {  
     padding-top: 15px;
 
-}
-
-.rivers-card, .camping-card, .rapids-card {
-    
-    margin: 200px 0;
-}
-
-.card-img {
-    border: 10px solid black;
-}
-
-main section img {
-    box-sizing: border-box;
-}
-
-.mountains{  
-    margin: 100px 0;
 }
