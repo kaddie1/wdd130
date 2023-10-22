@@ -1,0 +1,10 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.tart {
+    grid-column-start: span 2;
+  
+  }
