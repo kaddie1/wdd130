@@ -110,12 +110,12 @@
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   display: grid; /* turning on grid for content4    */
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 400px 400px;
  
   height: 400px;
 }
 .red4 {
-  width: 300px; 
+  width: 400px; 
   height: 450px; 
   background-color: red; 
   grid-column: 1/2;
@@ -123,7 +123,7 @@
 
 } 
 .green4 {
-  width: 300px; 
+  width: 400px; 
   height: 150px; 
   background-color: green; 
   grid-column: 2/3;
@@ -131,7 +131,7 @@
   
 } 
 .yellow4 {
-  width: 300px; 
+  width: 400px; 
   height: 150px; 
   background-color: gold; 
   grid-row: 2/3; 
@@ -139,7 +139,7 @@
   
 } 
 .blue4 {
-  width: 300px; 
+  width: 400px; 
   height: 150px; 
   background-color: blue; 
   grid-row: 3/4; 
