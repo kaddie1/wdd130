@@ -1,0 +1,41 @@
+body{
+
+background-color: black;
+}
+
+
+.card{
+width:250px;
+margin: 0 auto;
+background-color: white;
+
+}
+
+
+.headerimage{
+width:100%;
+
+}
+
+
+.awesomearticle{
+
+padding: 10%;
+text-align: center;
+}
+
+.Three{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.weeks{
+    text-align: center;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

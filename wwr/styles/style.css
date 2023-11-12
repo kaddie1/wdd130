@@ -5,6 +5,16 @@
     margin: 0 auto;
 }
 
+.home-title{
+    
+    font-family: "Anton", Arial, Helvetica;
+        
+    font-size: 2em;
+    margin-top: 10px;
+    color: white;
+     
+}
+
 nav{
 
 display: flex;
@@ -148,6 +158,42 @@ footer{
     align-items: center;
 }
 
+
+
+.about-title{
+    
+    font-family: "Anton", Arial, Helvetica;
+        
+    font-size: 2em;
+    margin-top: 10px;
+    color: black;
+    align-items: left;
+     
+}
+
+.main_para{
+
+    font-size: 40px;
+    color: black
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* do not add anything after this*/
 
 @media screen and (max-width: 900px) {
@@ -202,6 +248,8 @@ footer{
     color: white;
      
 }
+
+
 
 h2{
     margin: 0;
@@ -313,3 +361,6 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px black; 
 }
+
+
+
